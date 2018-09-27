@@ -159,7 +159,7 @@
        $('.category-link').removeClass('cat-active');
        $('.category-link-todos').removeClass('cat-active');
        $('.'+ ref).css('display', 'inline-block');
-       $("category-link").find("[data-target=" + ref + "]").addClass('cat-active');
+       $("#blog").find("a.category-link[data-target=" + ref + "]").addClass('cat-active');
 
      }
      $('.link-aprender').addClass('active');
@@ -170,7 +170,7 @@
        $('.titu-todos').css('display', 'block');
        $(this).addClass('cat-active');
      });
-     $('.category-link').click(function(){
+     $('.category-link, .menu-interno-link').click(function(){
        $('.nota-preview').css('display', 'none');
        $('.filtro-hide').css('display', 'none');
        $('.titu-todos').css('display', 'none');
@@ -178,7 +178,12 @@
        $('.category-link-todos').removeClass('cat-active');
        var ref = $(this).data('target');
        $('.'+ ref).css('display', 'inline-block');
-       $(this).addClass('cat-active');
+       if($(this).hasClass('category-link')){
+        $(this).addClass('cat-active');
+       }
+       else {
+         $("#blog").find("a.category-link[data-target=" + ref + "]").addClass('cat-active');
+       }
      });
    });
     </script>

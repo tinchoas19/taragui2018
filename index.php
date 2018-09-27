@@ -9,22 +9,30 @@
         <div id="carouselHeader" class="carousel slide red3bg" data-ride="carousel">
           <div class="carousel-inner">
 
-            <div class="carousel-item active slide-ganate red3bg">
-              <div class="d-flex align-middle justify-content-center">
-                <a href="#"><img src="img/home/slide-ganate.svg" class="img-fluid"></a>
-              </div>
+            <div class="carousel-item active slide-ganate red3bg" style="background-image: url('img/home/banners-home2.jpg');">
+              <!--<div class="d-flex align-middle justify-content-center">
+                <a href="#"><img src="img/home/banners-home2.jpg" class="img-fluid"></a>
+              </div>-->
+            </div>
+      
+            <div class="carousel-item slide-exp red3bg" style="background-image: url('img/home/banners-home3.jpg');">
+              <!--<div class="d-flex align-middle justify-content-end">
+                <a href="#"><img src="img/home/banners-home3.jpg" class="img-fluid"></a>
+              </div>-->
             </div>
 
-            
-            <div class="carousel-item slide-exp red3bg">
-              <div class="d-flex align-middle justify-content-end">
-                <a href="#"><img src="img/home/slide-exp.svg" class="img-fluid"></a>
-              </div>
+            <div class="carousel-item slide-exp red3bg" style="background-image: url('img/home/banners-matexp.jpg');">
+              <!--<div class="d-flex align-middle justify-content-end">
+                <a href="#"><img src="img/home/banners-matexp.jpg" class="img-fluid"></a>
+              </div>-->
             </div>
 
-            <!--div class="carousel-item">
-              <img class="d-block w-100" src="img/home/header1.png" alt="Third slide">
-            </div-->
+            <div class="carousel-item slide-exp red3bg" style="background-image: url('img/home/banners-matexp2.jpg');">
+              <!--<div class="d-flex align-middle justify-content-end">
+                <a href="#"><img src="img/home/banners-matexp2.jpg" class="img-fluid"></a>
+              </div>-->
+            </div>
+
           </div>
           <a class="carousel-control-prev" href="#carouselHeader" role="button" data-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>

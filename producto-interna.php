@@ -17,7 +17,7 @@
         <h2 class="pb-4 my-0 text-center">Taragüi Tradicional con Palo</h2>
         <div class="row">
           <div class="col-md-5 text-center">
-            <img src="img/prods/75880_2_1024x1024@2x.jpg" alt="" class="img-fluid">
+            <img src="img/prods/75880_2_1024x1024@2x.jpg" alt="" class="img-fluid img-producto-interna">
           </div>
           <div class="col-md-7">
             <p class="nota-desc">La yerba elegida por los argentinos: Ideal para preparar un mate, siguiendo los pasos del ritual argentino. Posee un blend impecable y noble, por su armonía entre cuerpo, aroma y madurez. Es la yerba mate paradigma, y la que mejor representa las costumbres</p>

@@ -2,7 +2,7 @@
   <div class="red3bg footer-top py-5">
     <div class="container">
       <div class="row">
-        <div class="col-sm-2">
+        <div class="col-md-2 col-sm-6">
           <h3><a href="#" class="pb-2 d-block w-100">APRENDER</a></h3>
           <ul class="px-0 mt-4">
             <li><a href="blog.php">Todos</a></li>
@@ -13,14 +13,14 @@
             <li><a href="blog.php#cat-prensa">En la Prensa</a></li>
           </ul>
         </div>
-        <div class="col-sm-2">
+        <div class="col-md-2 col-sm-6">
           <h3><a href="productos.php" class="pb-2 d-block w-100">PROBAR</a></h3>
           <ul class="px-0 mt-4">
             <li><a href="mate-xp.php">Viví la Experiencia Mate XP</a></li>
             <li><a href="#">Como tomar mate</a></li>
           </ul>
         </div>
-        <div class="col-sm-2">
+        <div class="col-md-2 col-sm-6">
           <h3><a href="mapa.php" class="pb-2 d-block w-100">COMPRAR</a></h3>
           <ul class="px-0 mt-4">
             <li><a href="mapa.php">Mapa de Locales</a></li>
@@ -28,7 +28,7 @@
             <li><a href="#">Shipping information</a></li>
           </ul>
         </div>
-        <div class="col-sm-2">
+        <div class="col-md-2 col-sm-6">
           <h3><a href="#" class="pb-2 d-block w-100">CONTACTO</a></h3>
           <ul class="px-0 mt-4">
             <li><a href="#">Contact us</a></li>
@@ -38,7 +38,7 @@
             <li><a href="#">Privacy policy</a></li>
           </ul>
         </div>
-        <div class="col-sm-2">
+        <div class="col-md-2 col-sm-12">
           <h3><a href="#" class="pb-2 d-block w-100">IDIOMAS</a></h3>
           <select class="custom-select">
             <option>Français</option>
