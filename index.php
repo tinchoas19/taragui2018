@@ -5,17 +5,10 @@
     <?php include 'inc/header.php'; ?>
     <section id="home">
 
-
         <div id="carouselHeader" class="carousel slide red3bg" data-ride="carousel">
           <div class="carousel-inner">
-
-            <div class="carousel-item active slide-ganate red3bg" style="background-image: url('img/home/banners-home2.jpg');">
-              <!--<div class="d-flex align-middle justify-content-center">
-                <a href="#"><img src="img/home/banners-home2.jpg" class="img-fluid"></a>
-              </div>-->
-            </div>
       
-            <div class="carousel-item slide-exp red3bg" style="background-image: url('img/home/banners-home3.jpg');">
+            <div class="carousel-item slide-exp red3bg active" style="background-image: url('img/home/banners-home3.jpg');">
               <!--<div class="d-flex align-middle justify-content-end">
                 <a href="#"><img src="img/home/banners-home3.jpg" class="img-fluid"></a>
               </div>-->
@@ -82,7 +75,7 @@
           </div>
         </div>
 
-        <div class="parle pb-4 d-none d-md-block">
+        <div class="parle py-4 d-none d-md-block">
           <div class="container">
             <h2 class="py-3">On parle de Yerba Mate Taragüi</h2>
             <div id="carouselParle" class="carousel slide py-0" data-ride="carousel">

@@ -1,7 +1,7 @@
 <header class="red2bg brd-header">
   <div class="container p-0">
     <p class="text-right text-uppercase tara-bread p-0 m-0 d-none d-lg-block">
-      <a href="#">nueva tienda online con Envíos a toda Europa</a>
+      <a href="https://shop.taragui.com/" target="_blank" title="Ir a tienda online">nueva tienda online con Envíos a toda Europa</a>
     </p>
   </div>
   <div class="red1bg header-inner">

@@ -211,9 +211,19 @@ header h3{
 .header-static, 
 #home .carousel-item {
 	border-bottom: 1em solid #ba0a13;
-	height: 50vh;
+	/*height: 50vh;*/
 	background-position: center;
 	background-size: cover;
+}
+#home #carouselHeader .carousel-item {
+    height: 50vh;
+}
+#home #carouselParle .carousel-item {
+    height: 170px;
+}
+
+#home #carouselParle .carousel-item .align-items-center {
+    height: 100%;
 }
 
 #home .carousel-item {
@@ -294,6 +304,7 @@ header h3{
 
     .parle h2{
     	color:#fff;
+        margin-bottom: 0;
     }
 
     .parle .img-fluid{
@@ -750,7 +761,7 @@ header h3{
     		column-count: 4;
     	}
         .header-static,
-        #home .carousel-item {
+        #home #carouselHeader .carousel-item {
             height: 450px;
         }
     }
