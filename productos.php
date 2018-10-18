@@ -33,7 +33,7 @@
           </div>
           <div class="col-md-4 py-3">
             <a href="producto-interna.php"><img src="img/prods/galeria/03.jpg" class="img-fluid" ></a>
-            <p class="font-weight-bold mb-0 pb-0"><a href="producto-interna.php">Mate Experience</a></p>
+            <p class="font-weight-bold mb-0 pb-0"><a href="mate-xp.php">Mate Experience</a></p>
             <p>Aprender y Probar</p>
           </div>
           <div class="col-md-4 py-3">

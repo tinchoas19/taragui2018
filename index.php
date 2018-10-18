@@ -5,6 +5,12 @@
     <?php include 'inc/header.php'; ?>
     <section id="home">
 
+      <div class="lengueta">
+        <p class="tag d-none" id="tag-aprender">Aprender</p>
+        <p class="tag d-none" id="tag-probar">Probar</p>
+        <p class="tag d-none" id="tag-comprar">Comprar</p>
+      </div>
+
         <div id="carouselHeader" class="carousel slide red3bg" data-ride="carousel">
           <div class="carousel-inner">
       
@@ -37,7 +43,7 @@
           </a>
         </div>
 
-        <div class="container">
+        <div class="container" id="scroll-aprender">
           <h2 class="text-center py-5">Enjoy all the healthy benefits of yerba mate!</h1>
           <div class="row">
               <div class="col-md-4 text-center">
@@ -58,7 +64,7 @@
           </div>
         </div>
 
-        <div class="container pb-5 d-none d-md-block">
+        <div class="container pb-5 d-none d-md-block" id="scroll-probar">
           <img src="img/home/banner.svg" alt="" class="img-fluid">
         </div>
 
@@ -102,7 +108,7 @@
           </div>
         </div>
 
-        <div class="text-center products pb-5">
+        <div class="text-center products pb-5" id="scroll-comprar">
           <h2 class="py-5">Products</h2>
 
           <div class="d-sm-none">
@@ -123,5 +129,6 @@
     </section>
     <?php include 'inc/footer.php'; ?>
     <?php include 'inc/scripts-src.php'; ?>
+    <script src="js/scroll-label.js?v=99"></script>
   </body>
 </html>

@@ -7,25 +7,11 @@
 
       <div id="carouselHeader" class="carousel slide red3bg" data-ride="carousel">
         <div class="carousel-inner">
-
           <div class="carousel-item active slide-exp red3bg">
             <div class="d-flex align-middle">
-              <a href="#"><img src="img/matexp/header.svg" class="img-fluid"></a>
+              <a href="productos.php"><img src="img/matexp/header.svg" class="img-fluid"></a>
             </div>
           </div>
-
-          <!--div class="carousel-item active text-right">
-            <img src="img/matexp/header2.jpg" alt="First slide">
-            <div class="taragui-carousel-caption align-middle">
-              <img src="img/matexp/header.svg" class="img-fluid">
-            </div>
-          </div-->
-          <!--div class="carousel-item">
-            <img class="d-block w-100" src="img/home/header1.png" alt="Second slide">
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="img/home/header1.png" alt="Third slide">
-          </div-->
         </div>
         <a class="carousel-control-prev" href="#carouselHeader" role="button" data-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
